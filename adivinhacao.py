@@ -9,7 +9,15 @@ chute = input("digite um numero: ")
 print("você digitou ", chute)
 numero = int(chute)
 
-if (numero == numero_secreto):
+acertou = numero == numero_secreto
+maior   = numero > numero_secreto
+menor   = numero < numero_secreto
+if (acertou):
     print("parabéns")
 else:
-    print("o número não é o mesmo")
+    if(maior):
+       print("o número não é o mesmo!! É maior")
+    elif(menor):
+        print("o número não é o mesmo!! É menor")
+
+print("fim do jogo")
