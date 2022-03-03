@@ -4,7 +4,7 @@ print("**************************************")
 
 numero_secreto = 42
 
-chute = input("digite um numero: ")
+chute = input("\ndigite um numero: ")
 
 print("você digitou ", chute)
 numero = int(chute)
